@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    padding-top: 20px;
+}
+.orange_header{
+    width:100%;
+    margin:20px 0;
+    background: orange;
+    padding: 2%;
+}
+
+.col-3{
+    width:33%;
+    float: left;
+    padding: 2%;
+}
+.col-3 img{
+    width: 48%;
+    padding: 15px 2% 5px 0;
+    height: 100px;
+}
+@media screen and (max-width:766px){
+    .orange_header{
+        width:100%;
+        margin-top:0;
+    }
+    .col-3{
+        width:100%;
+        float: left;
+        padding: 2%;
+    }
+}
+@media screen and (max-width:960px){
+    .col-3 img{
+        width: 100%;
+        height: auto;
+        /*padding: 2% 0;*/
+    }
+}
