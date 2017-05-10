@@ -59,7 +59,7 @@ p{
         width: 50%;
     }
     .logo {
-        min-height: 300px;
+        min-height: 160px;
         background-size: auto 100%;
     }
 }
@@ -68,5 +68,12 @@ p{
 @media screen and (max-width:480px){
     .four-in-line{
         width: 50%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .logo {
+        min-height: 160px;
+        background-size: auto 100%;
     }
 }
